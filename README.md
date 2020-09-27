@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails API only using JWT authentication!!!!
 
-Things you may want to cover:
+#Using Ruby 2.7.0 and Rails 6
 
-* Ruby version
+#Steps after clone this project:
+- Bundle install
+- rails secret to generate a key to jwt
+- create a file called env.yml on config directory and add jwt secret key (Look at config/env.yml/example)
+- rails s
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#Routes:
+  POST /login
+  DELETE /logout
+  POST /sign_up
+  
+  GET /test
+ 
+ 
